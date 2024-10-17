@@ -8,7 +8,7 @@ const Input = (props) => {
         type={props.type}
         name={props.name}
         value={props.value}
-        onChange={(e) => props.onValueChange(e.target.value)}
+        onChange={(e) => props.onChange(e.target.value)}
       ></input>
     </>
   );
